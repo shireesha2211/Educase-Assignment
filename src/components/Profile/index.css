@@ -1,0 +1,98 @@
+.profile-button {
+  background-color: transparent;
+  border: none;
+}
+
+.profile-card {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 10px 30px 10px;
+  width: 100%;
+}
+
+.profile-sub-card {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+}
+
+.arrow-icon {
+  width: 24px;
+  height: 24px;
+  gap: 0px;
+  opacity: 0px;
+  gap: 0px;
+  opacity: 0px;
+  color: #4e4b66;
+}
+
+.profile-heading {
+  margin-left: 34%;
+  color: #000000;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.11999999731779099px;
+  text-align: center;
+}
+
+.profile-img {
+  text-align: center;
+  width: 140px;
+  height: 140px;
+  gap: 0px;
+  opacity: 0px;
+  background: #eef1f4;
+  border-radius: 50%;
+  margin: 4px;
+  align-self: center;
+}
+
+.form-element {
+  display: flex;
+  flex-direction: column;
+}
+
+.label-element {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.11999999731779099px;
+  text-align: left;
+  color: #4e4b66;
+}
+
+.star {
+  color: red;
+}
+
+.input-element {
+  width: Fill (379px) px;
+  height: Fixed (48px) px;
+  padding: 10px 0px 10px 10px;
+  gap: 10px;
+  border-radius: 6px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  background: #ffffff;
+  border: 1px solid #4e4b66;
+}
+
+.submit-button {
+  width: Fixed (380px) px;
+  height: Hug (50px) px;
+  padding: 13px 24px 13px 24px;
+  gap: 10px;
+  border-radius: 6px;
+  opacity: 0px;
+  background: #1877f2;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.11999999731779099px;
+  text-align: center;
+  margin: 22px 1px 10px 1px;
+  border: none;
+  align-self: flex-end;
+}

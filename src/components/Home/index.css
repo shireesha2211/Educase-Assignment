@@ -1,0 +1,275 @@
+.header-card {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 4px 9px 4px 9px;
+}
+
+.logo-card {
+  color: blue;
+  font-family: 'Roboto';
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.icon {
+  width: 30px;
+}
+
+.notification-icon {
+  color: #000000;
+  margin-right: 14px;
+  width: 18px;
+  height: 21.5px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.search-card {
+  margin: 9px 17px 9px 17px;
+  padding: 5px;
+  border: 1px solid #4e4b66;
+  text-align: center;
+  border-radius: 6px;
+  width: Fill (379px) px;
+  height: Fixed (48px) px;
+  gap: 0px;
+  display: flex;
+  align-items: center;
+  padding: 4px;
+  justify-content: space-between;
+  opacity: 0px;
+}
+
+.search-bar {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.11999999731779099px;
+  text-align: left;
+  color: #a0a3bd;
+  border: none;
+  outline: none;
+  padding-left: 2px;
+}
+
+.search-icon {
+  width: 24px;
+  height: 24px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.filter-icon {
+  width: 24px;
+  height: 24px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.trending-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 9px 17px 9px 17px;
+  padding: 5px;
+}
+
+.trending-heading {
+  color: #000000;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.11999999731779099px;
+  text-align: left;
+}
+
+.card-des {
+  color: #4e4b66;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.11999999731779099px;
+  text-align: left;
+}
+
+.footer-card {
+  width: Fixed (428px) px;
+  height: Fixed (78px) px;
+  top: 848px;
+  padding: 34px 48px 34px 48px;
+  gap: 32px;
+  opacity: 0px;
+  background: #ffffff;
+  box-shadow: 0px -2px 4px 0px #0000000d;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.icon-card {
+  width: Fixed (70px) px;
+  height: Fixed (70px) px;
+  padding: 4px 8px 4px 8px;
+  gap: 4px;
+  border-radius: 6px 0px 0px 0px;
+  opacity: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #4e4b66;
+}
+
+.footer-icon {
+  width: 24px;
+  height: 24px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.active-card {
+  color: #1877f2;
+}
+
+.footer-heading {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.11999999731779099px;
+  text-align: left;
+  color: #4e4b66;
+}
+
+.profile-button {
+  background-color: transparent;
+  border: none;
+}
+
+.link-element {
+  text-decoration: none;
+}
+
+.category-card {
+  min-width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  overflow-x: auto;
+}
+
+.category-item {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.11999999731779099px;
+  text-align: left;
+  color: #4e4b66;
+  margin: 10px;
+}
+
+.active-category {
+  color: #000000;
+  text-decoration: underline;
+  text-decoration-color: #1877f2;
+  text-underline-offset: 10px;
+}
+
+.news-card {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+
+.news-card-img {
+  width: 96px;
+  height: 96px;
+  gap: 0px;
+  opacity: 0px;
+  border-radius: 3px;
+}
+
+.news-detail-card {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.news-detail-card-category {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 19.5px;
+  letter-spacing: 0.11999999731779099px;
+  text-align: left;
+  color: #4e4b66;
+  width: Fixed (264px) px;
+  height: Hug (96px) px;
+  gap: 4px;
+  opacity: 0px;
+  overflow: auto;
+}
+
+.news-detail-heading {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.11999999731779099px;
+  text-align: left;
+  color: #000000;
+}
+
+.time-detail-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.channel {
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 19.5px;
+  letter-spacing: 0.11999999731779099px;
+  text-align: left;
+  color: #4e4b66;
+}
+
+.time {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 19.5px;
+  letter-spacing: 0.11999999731779099px;
+  text-align: left;
+  color: #4e4b66;
+}
+
+.anchor-element {
+  width: 14px;
+  height: 14px;
+  gap: 0px;
+  opacity: 0px;
+  text-decoration: none;
+}
+
+.trending-news {
+  margin: 15px;
+}
+
+.trending-image {
+  width: 364px;
+  height: 183px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+@media screen and (min-width: 576px) {
+  .trending-image {
+    width: 100%;
+    height: 400px;
+  }
+}

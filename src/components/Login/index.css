@@ -1,0 +1,222 @@
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app {
+  color: blue;
+  font-family: 'Roboto';
+  font-size: 40px;
+  line-height: 62px;
+  font-weight: bold;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.icon {
+  width: 40px;
+}
+
+.loginContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: 'Roboto';
+  padding: 30px;
+}
+
+.heading {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 72px;
+  letter-spacing: 0.11999999731779099px;
+  text-align: left;
+}
+
+.sub-heading {
+  color: #1877f2;
+}
+
+.para {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.11999999731779099px;
+  text-align: left;
+  color: #4e4b66;
+}
+
+.form-element {
+  display: flex;
+  flex-direction: column;
+}
+
+.label-element {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0.11999999731779099px;
+  text-align: left;
+  color: #4e4b66;
+  margin-top: 10px;
+}
+
+.star {
+  color: red;
+}
+
+.border {
+  border: 1px solid #4e4b66;
+}
+
+.input-element {
+  width: Fill (430px) px;
+  height: Fixed (48px) px;
+  padding: 3px 3px 3px 10px;
+  gap: 10px;
+  border-radius: 6px;
+  opacity: 0px;
+  background: #ffffff;
+  outline: none;
+}
+
+.no-border {
+  border: none;
+}
+
+.password-element {
+  border: 1px solid #4e4b66;
+  background: #ffffff;
+  height: Fixed (48px) px;
+  border-radius: 6px;
+  opacity: 0px;
+}
+
+.see-icon {
+  color: #4e4b66;
+  width: 21.64px;
+  height: 21.21px;
+  top: 1.39px;
+  left: 1.18px;
+  gap: 0px;
+  opacity: 0px;
+  padding: 0px 3px 0px 3px;
+}
+
+.check-box-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.checkbox {
+  width: 17px;
+  height: 17px;
+  padding: 2px 0px 0px 0px;
+  gap: 0px;
+  border-radius: 3px 0px 0px 0px;
+  opacity: 0px;
+  background: #1877f2;
+}
+
+.forgot-password {
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.11999999731779099px;
+  text-align: left;
+  color: #5890ff;
+  padding-left: 10px;
+}
+
+.login-button {
+  width: Fixed (379px) px;
+  height: Hug (30px) px;
+  padding: 13px 24px 13px 24px;
+  gap: 10px;
+  border-radius: 6px;
+  opacity: 0px;
+  background: #1877f2;
+  gap: 0px;
+  opacity: 0px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.11999999731779099px;
+  color: #ffffff;
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin: 8px 0px 8px 0px;
+}
+
+.or {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.11999999731779099px;
+  text-align: left;
+  color: #4e4b66;
+}
+
+.other-apps {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 58%;
+}
+
+.app-button {
+  width: Fixed (174px) px;
+  height: Hug (48px) px;
+  padding: 12px 24px 12px 16px;
+  gap: 10px;
+  border-radius: 6px;
+  opacity: 0px;
+  background: #eef1f4;
+  border: none;
+  padding: 12px 23px 12px 23px;
+  cursor: pointer;
+  outline: none;
+  color: #667080;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.11999999731779099px;
+  text-align: center;
+}
+
+.app-icon {
+  color: #0163e0;
+  margin: 6px 4px 0px 4px;
+}
+
+.sign-up {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.11999999731779099px;
+  text-align: left;
+}
+
+.sign-up-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #0163e0;
+  font-weight: bold;
+}
+
+.button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
